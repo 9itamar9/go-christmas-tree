@@ -45,7 +45,7 @@ func init() {
 	walker = walkers.SimpleWalker{
 		MiddlePrefix: "├───",
 		EndPredix: "└───",
-		Indentation: "\t",
+		Indentation: "|\t",
 	}
 }
 
