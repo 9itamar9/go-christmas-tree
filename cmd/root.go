@@ -15,9 +15,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "christmas-tree",
 	Short: "Print's a dir-like file system!",
-	Run: func(cmd *cobra.Command, args []string) {
-
-	},
+	//Run: func(cmd *cobra.Command, args []string) { },
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
